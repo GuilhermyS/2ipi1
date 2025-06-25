@@ -4,89 +4,139 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Como Fazer Bolos</title>
-    <link rel="stylesheet" href="style.css"> 
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #fff8f0;
+            color: #333;
+        }
+        
+        header {
+            background-color: #ffddc1;
+        }
+        
+        .bolo-card {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+        
+        .bolo-card h2 {
+            color: #a0522d;
+        }
+        
+        .bolo-card h3 {
+            color: #8b4513;
+        }
+        
+        footer {
+            background-color: #ffe4d1;
+            color: #666;
+        }
+    </style>
 </head>
 <body>
+    <header class="py-5 mb-4">
+        <div class="container">
+            <h1 class="display-4">Como Fazer Bolos Deliciosos</h1>
+            <p class="lead">Aprenda a fazer bolos incríveis com receitas fáceis e rápidas!</p>
+        </div>
+    </header>
 
-<header>
-    <h1>Como Fazer Bolos Deliciosos</h1>
-    <p>Aprenda a fazer bolos incríveis com receitas fáceis e rápidas!</p>
-</header>
+    <div class="container">
+        <div class="row">
+            <!-- Bolo de Chocolate -->
+            <div class="col-md-6 col-lg-3 mb-4">
+                <div class="bolo-card p-3 h-100">
+                    <img src="https://github.com/GuilhermyS/2ipi1/blob/main/bolo.jpg?raw=true" alt="Bolo de Chocolate" class="img-fluid rounded mb-3">
+                    <h2 class="h4">Bolo de Chocolate</h2>
+                    <p>Um bolo de chocolate simples e delicioso. Perfeito para qualquer ocasião!</p>
+                    <h3 class="h5 mt-3">Ingredientes:</h3>
+                    <ul>
+                        <li>2 xícaras de farinha de trigo</li>
+                        <li>1 xícara de açúcar</li>
+                        <li>1 xícara de leite</li>
+                        <li>3 colheres de sopa de cacau em pó</li>
+                        <li>2 ovos</li>
+                        <li>1/2 xícara de óleo</li>
+                        <li>1 colher de sopa de fermento em pó</li>
+                    </ul>
+                    <h3 class="h5 mt-3">Modo de Preparo:</h3>
+                    <p>Misture todos os ingredientes e leve ao forno a 180ºC por 30 minutos. Decore com cobertura de chocolate!</p>
+                </div>
+            </div>
 
-<div class="container">
-    <div class="bolo">
-        <img src="https://github.com/GuilhermyS/2ipi1/blob/main/bolo.jpg?raw=true" alt="Bolo de Chocolate">
-        <h2>Bolo de Chocolate</h2>
-        <p>Um bolo de chocolate simples e delicioso. Perfeito para qualquer ocasião!</p>
-        <h3>Ingredientes:</h3>
-        <ul>
-            <li>2 xícaras de farinha de trigo</li>
-            <li>1 xícara de açúcar</li>
-            <li>1 xícara de leite</li>
-            <li>3 colheres de sopa de cacau em pó</li>
-            <li>2 ovos</li>
-            <li>1/2 xícara de óleo</li>
-            <li>1 colher de sopa de fermento em pó</li>
-        </ul>
-        <h3>Modo de Preparo:</h3>
-        <p>Misture todos os ingredientes e leve ao forno a 180ºC por 30 minutos. Decore com cobertura de chocolate!</p>
+            <!-- Bolo de Fubá -->
+            <div class="col-md-6 col-lg-3 mb-4">
+                <div class="bolo-card p-3 h-100">
+                    <img src="https://github.com/GuilhermyS/2ipi1/blob/main/de.jpg?raw=true" alt="Bolo de Fubá" class="img-fluid rounded mb-3">
+                    <h2 class="h4">Bolo de Fubá</h2>
+                    <p>Tradicional bolo de fubá, macio e cheio de sabor.</p>
+                    <h3 class="h5 mt-3">Ingredientes:</h3>
+                    <ul>
+                        <li>2 xícaras de fubá</li>
+                        <li>1 xícara de açúcar</li>
+                        <li>1 xícara de leite</li>
+                        <li>3 ovos</li>
+                        <li>1/2 xícara de óleo</li>
+                        <li>1 colher de sopa de fermento em pó</li>
+                    </ul>
+                    <h3 class="h5 mt-3">Modo de Preparo:</h3>
+                    <p>Bata todos os ingredientes no liquidificador, despeje em forma untada e leve ao forno por 40 minutos a 180ºC.</p>
+                </div>
+            </div>
+
+            <!-- Bolo de Limão -->
+            <div class="col-md-6 col-lg-3 mb-4">
+                <div class="bolo-card p-3 h-100">
+                    <img src="https://github.com/GuilhermyS/2ipi1/blob/main/fu.jpg?raw=true" alt="Bolo de Limão" class="img-fluid rounded mb-3">
+                    <h2 class="h4">Bolo de Limão</h2>
+                    <p>Refrescante e com um toque de limão que conquista todos os paladares!</p>
+                    <h3 class="h5 mt-3">Ingredientes:</h3>
+                    <ul>
+                        <li>2 xícaras de farinha de trigo</li>
+                        <li>1 xícara de açúcar</li>
+                        <li>1/2 xícara de suco de limão</li>
+                        <li>3 ovos</li>
+                        <li>1 colher de sopa de fermento em pó</li>
+                        <li>1/2 xícara de óleo</li>
+                    </ul>
+                    <h3 class="h5 mt-3">Modo de Preparo:</h3>
+                    <p>Bata todos os ingredientes e leve ao forno a 180ºC por 30 minutos. Decore com raspas de limão!</p>
+                </div>
+            </div>
+
+            <!-- Bolo de Cenoura -->
+            <div class="col-md-6 col-lg-3 mb-4">
+                <div class="bolo-card p-3 h-100">
+                    <img src="https://github.com/GuilhermyS/2ipi1/blob/main/ba.jpg?raw=true" alt="Bolo de Cenoura" class="img-fluid rounded mb-3">
+                    <h2 class="h4">Bolo de Cenoura</h2>
+                    <p>Um bolo fofinho e saboroso, com aquele toque especial de cenoura!</p>
+                    <h3 class="h5 mt-3">Ingredientes:</h3>
+                    <ul>
+                        <li>2 cenouras grandes</li>
+                        <li>2 xícaras de açúcar</li>
+                        <li>2 xícaras de farinha de trigo</li>
+                        <li>1/2 xícara de óleo</li>
+                        <li>3 ovos</li>
+                        <li>1 colher de sopa de fermento em pó</li>
+                    </ul>
+                    <h3 class="h5 mt-3">Modo de Preparo:</h3>
+                    <p>Bata tudo no liquidificador, despeje em forma untada e asse a 180ºC por 40 minutos. Cobertura de chocolate é opcional!</p>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <div class="bolo">
-        <img src="https://github.com/GuilhermyS/2ipi1/blob/main/de.jpg?raw=true" alt="Bolo de Fubá">
-        <h2>Bolo de Fubá</h2>
-        <p>Tradicional bolo de fubá, macio e cheio de sabor.</p>
-        <h3>Ingredientes:</h3>
-        <ul>
-            <li>2 xícaras de fubá</li>
-            <li>1 xícara de açúcar</li>
-            <li>1 xícara de leite</li>
-            <li>3 ovos</li>
-            <li>1/2 xícara de óleo</li>
-            <li>1 colher de sopa de fermento em pó</li>
-        </ul>
-        <h3>Modo de Preparo:</h3>
-        <p>Bata todos os ingredientes no liquidificador, despeje em forma untada e leve ao forno por 40 minutos a 180ºC.</p>
-    </div>
+    <footer class="py-4 mt-5">
+        <div class="container text-center">
+            <p class="mb-0">&copy; 2025 Como Fazer Bolos - Todos os direitos reservados</p>
+        </div>
+    </footer>
 
-    <div class="bolo">
-        <img src="https://github.com/GuilhermyS/2ipi1/blob/main/fu.jpg?raw=true" alt="Bolo de Limão">
-        <h2>Bolo de Limão</h2>
-        <p>Refrescante e com um toque de limão que conquista todos os paladares!</p>
-        <h3>Ingredientes:</h3>
-        <ul>
-            <li>2 xícaras de farinha de trigo</li>
-            <li>1 xícara de açúcar</li>
-            <li>1/2 xícara de suco de limão</li>
-            <li>3 ovos</li>
-            <li>1 colher de sopa de fermento em pó</li>
-            <li>1/2 xícara de óleo</li>
-        </ul>
-        <h3>Modo de Preparo:</h3>
-        <p>Bata todos os ingredientes e leve ao forno a 180ºC por 30 minutos. Decore com raspas de limão!</p>
-    </div>
-
-    <div class="bolo">
-        <img src="https://github.com/GuilhermyS/2ipi1/blob/main/ba.jpg?raw=true" alt="Bolo de Cenoura">
-        <h2>Bolo de Cenoura</h2>
-        <p>Um bolo fofinho e saboroso, com aquele toque especial de cenoura!</p>
-        <h3>Ingredientes:</h3>
-        <ul>
-            <li>2 cenouras grandes</li>
-            <li>2 xícaras de açúcar</li>
-            <li>2 xícaras de farinha de trigo</li>
-            <li>1/2 xícara de óleo</li>
-            <li>3 ovos</li>
-            <li>1 colher de sopa de fermento em pó</li>
-        </ul>
-        <h3>Modo de Preparo:</h3>
-        <p>Bata tudo no liquidificador, despeje em forma untada e asse a 180ºC por 40 minutos. Cobertura de chocolate é opcional!</p>
-    </div>
-
-
-<footer>
-    <p>&copy; 2025 Como Fazer Bolos - Todos os direitos reservados</p>
-</footer>
-
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
